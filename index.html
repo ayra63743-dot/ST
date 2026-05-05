@@ -27,7 +27,7 @@
         #main-content { display: none; min-height: 100vh; background: #141414; }
         .hero {
             height: 80vh;
-            background: linear-gradient(to top, #141414, transparent 40%), url('hero_bg.png');
+            background: linear-gradient(to top, #141414, transparent 40%), url('hero_bg.jpeg');
             background-size: cover; background-position: center;
             display: flex; flex-direction: column; justify-content: center; padding: 0 60px;
         }
@@ -35,8 +35,8 @@
 
         /* --- CREDITS --- */
         #credits-screen { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: black; z-index: 1000; overflow: hidden; }
-        .credits-wrapper { position: absolute; top: 100%; width: 100%; text-align: center; animation: scroll 30s linear forwards; }
-        @keyframes scroll { 0% { top: 100%; } 100% { top: -350%; } }
+        .credits-wrapper { position: absolute; top: 100%; width: 100%; text-align: center; animation: scroll 32s linear forwards; }
+        @keyframes scroll { 0% { top: 100%; } 100% { top: -450%; } }
         
         .credit-photo { width: 350px; height: 350px; object-fit: cover; border-radius: 8px; margin-bottom: 60px; }
         .credit-row { margin-bottom: 45px; }
@@ -54,15 +54,15 @@
         <h1 style="font-size: 3.5rem; font-weight: 400;">Who's watching?</h1>
         <div class="profile-container">
             <div class="profile" onclick="startApp()">
-                <img src="profile_one_month.png">
+                <img src="profile_one_month.jpeg">
                 <p>1 Month</p>
             </div>
             <div class="profile" onclick="startApp()">
-                <img src="profile_six_months.png">
+                <img src="profile_six_months.jpeg">
                 <p>6 Months</p>
             </div>
             <div class="profile" onclick="startApp()">
-                <img src="profile_one_year.png">
+                <img src="profile_one_year.jpeg">
                 <p>1 Year</p>
             </div>
         </div>
@@ -78,17 +78,24 @@
 
     <div id="credits-screen">
         <div class="credits-wrapper">
-            <img src="credits.png" class="credit-photo">
+            <img src="credits.jpeg" class="credit-photo">
 
             <div class="credit-row"><div class="role">Directed by</div><div class="name">The Universe</div></div>
             <div class="credit-row"><div class="role">Starring</div><div class="name">ShravyaTejesh</div></div>
             <div class="credit-row"><div class="role">Written by</div><div class="name">Fate & Destiny</div></div>
-            <div class="credit-row"><div class="role">Director of photography</div><div class="name">Our camera rolls</div></div>
-            <div class="credit-row"><div class="role">Chief editor</div><div class="name">Our favorite memories</div></div>
             <div class="credit-row"><div class="role">Produced by</div><div class="name">Patience & Support</div></div>
-            <div class="credit-row"><div class="role">Catering by</div><div class="name">Midnight Cravings</div></div>
+            <div class="credit-row"><div class="role">Director of photography</div><div class="name">Our camera rolls</div></div>
+            <div class="credit-row"><div class="role">Location</div><div class="name">Your fav location</div></div>
+            <div class="credit-row"><div class="role">Chief editor</div><div class="name">Our favorite memories</div></div>
+            <div class="credit-row"><div class="role">Soundtrack</div><div class="name">Melodies of us</div></div>
+            <div class="credit-row"><div class="role">Executive producers</div><div class="name">Shared Future Plans</div></div>
+            <div class="credit-row"><div class="role">Technical advisor</div><div class="name">Honest communication</div></div>
+            <div class="credit-row"><div class="role">Catering by</div><div class="name">Midnight cravings</div></div>
+            <div class="credit-row"><div class="role">Time management</div><div class="name">"Five more minutes"</div></div>
             <div class="credit-row"><div class="role">Wardrobe designer</div><div class="name">Each other's hoodies</div></div>
+            <div class="credit-row"><div class="role">Chief Motivator</div><div class="name">Friends & family</div></div>
             <div class="credit-row"><div class="role">Stunt coordinators</div><div class="name">Arguments & Fights</div></div>
+            <div class="credit-row"><div class="role">Visual effects & graphics</div><div class="name">Better posture checks</div></div>
             
             <h1 style="color: var(--netflix-red); font-size: 4rem; margin-top: 100px;">To Be Continued...</h1>
         </div>
